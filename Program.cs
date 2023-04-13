@@ -19,7 +19,7 @@ namespace AdivinarNumero
             //Se genera un numero aleatorio entre 0 y 100. Debe acertarse en 4 intentos maximo
 
             Random random = new Random();
-            int numeroRandom = random.Next(0, 100);
+            int numeroRandom = random.Next(0, 101);
             int intentos = 4;
             int numeroIntroducido;
 
